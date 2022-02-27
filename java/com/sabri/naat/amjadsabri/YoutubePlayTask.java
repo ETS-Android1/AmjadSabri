@@ -31,7 +31,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class YoutubePlayTask extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener{
-    public static final String API_KEY = "AIzaSyB4OK0mdd0UnOTxH3fGzxAhyT-uRWVdv3Q";
+    public static final String API_KEY = "**************";
 
     //https://www.youtube.com/watch?v=<VIDEO_ID>
 
