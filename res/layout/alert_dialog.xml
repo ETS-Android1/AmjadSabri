@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:background="#d1dabe"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00712020"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/left"
+                    android:layout_alignParentLeft="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:background="#d7ffffff"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="21sp"
+                    android:id="@+id/tvTitle"
+                    android:textStyle="bold"
+                    android:textColor="#e76d78f1"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.7"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:padding="25dp"
+                    android:gravity="center"
+                    android:text="If you like this App. Please help us with 5*. Thanks"
+                    android:textColor="#ed18540c"
+                    android:id="@+id/tvDetail"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".8">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:gravity="right">
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="5dp"
+                            android:text="More App"
+                            android:id="@+id/more_a"
+                            android:textColor="#ffffff"
+                            android:textSize="10sp"
+                            android:typeface="serif"
+                            android:background="@drawable/dialog_2"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:gravity="center">
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:text="EXIT"
+                            android:id="@+id/no_p"
+                            android:textSize="14sp"
+                            android:textColor="#ffd23c"
+                            android:typeface="serif"
+                            android:background="@drawable/dialog_2"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:gravity="left">
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="30dp"
+                            android:text="Rate"
+                            android:typeface="serif"
+                            android:textSize="14sp"
+                            android:id="@+id/p_again"
+                            android:textColor="#16ff12"
+                            android:background="@drawable/dialog_2"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

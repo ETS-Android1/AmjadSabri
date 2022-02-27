@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeButton"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="ifRoom"></item>
+
+
+
+    <!--<item android:id="@+id/dev"-->
+        <!--android:title="Developer Details"/>-->
+
+    <item android:id="@+id/rate_us"
+        android:title="Rate us"
+        />
+    <item android:id="@+id/newGoj"
+        android:title="Facebook"
+        />
+
+
+</menu>
